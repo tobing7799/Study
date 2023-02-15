@@ -80,7 +80,7 @@ int solution(const char* babbling[], size_t babbling_len) {
 
 int main()
 {
-    const char* babbling[4] = { "aya","woo","ayes","wowoma"};
+    const char* babbling[4] = { "aya","yee","maa","wyeoo"};
 
     printf("%d",solution(babbling, 4));
 
