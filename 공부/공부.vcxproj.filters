@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="연속된 수의 합.cpp">
+    <ClCompile Include="다음에 올 숫자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
