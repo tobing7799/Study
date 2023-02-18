@@ -8,9 +8,9 @@ using namespace std;
 vector<string> solution(string my_str, int n) {
     vector<string> answer;
 
-    for (int i = 0; i < my_str.length(); i += 6)
+    for (int i = 0; i < my_str.length(); i += n)
     {
-        answer.push_back(my_str.substr(i, 6));
+        answer.push_back(my_str.substr(i, n));
     }
     return answer;
 }
