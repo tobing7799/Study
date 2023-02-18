@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="문자열 밀기.cpp">
+    <ClCompile Include="잘라서 배열로 저장하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
