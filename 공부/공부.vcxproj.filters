@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="제곱수 판별하기.cpp">
+    <ClCompile Include="문자열안에 문자열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
