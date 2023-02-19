@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OX퀴즈.cpp">
+    <ClCompile Include="자릿수 더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
