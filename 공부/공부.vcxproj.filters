@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="약수 구하기.cpp">
+    <ClCompile Include="한 번만 등장한 문자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
