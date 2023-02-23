@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="한 번만 등장한 문자.cpp">
+    <ClCompile Include="인덱스 바꾸기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
