@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="인덱스 바꾸기.cpp">
+    <ClCompile Include="영어가 싫어요.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
