@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="삼각형의 완성조건.cpp">
+    <ClCompile Include="중복된 문자 제거.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
