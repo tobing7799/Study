@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="중복된 문자 제거.cpp">
+    <ClCompile Include="k의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
