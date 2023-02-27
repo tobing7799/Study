@@ -11,7 +11,8 @@ int solution(vector<int> array, int n) {
     auto p = find_if(array.begin(), array.end(), [n](int a) {
         if (n < a) return true;
         else return false; });
-    if (*p - n < n - *(p - 1)) answer = *p;
+    if (p == array.begin()) answer = *p;
+    else if (*p - n < n - *(p - 1)) answer = *p;
     else answer = *(p - 1);
     return answer;
 }
