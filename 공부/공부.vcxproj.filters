@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="로그인 성공.cpp">
+    <ClCompile Include="등수 매기기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
