@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="치킨 쿠폰.cpp">
+    <ClCompile Include="로그인 성공.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
