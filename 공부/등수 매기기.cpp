@@ -11,9 +11,9 @@ vector<int> solution(vector<vector<int>> score) {
     for (vector<int> n : score) {
         result.push_back(double((n[0] + n[1]) / 2.0));
     }
-    for (int n : result)
+    for (double n : result)
     {
-        answer.push_back(count_if(result.begin(), result.end(), [n](int a) {
+        answer.push_back(count_if(result.begin(), result.end(), [n](double a) {
             if (n < a) return true;
             else return false;
             })+1);
