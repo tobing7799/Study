@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="유한소수 판별하기.cpp">
+    <ClCompile Include="겹치는 선분의 길이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
