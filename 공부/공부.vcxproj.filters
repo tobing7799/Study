@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="특이한 정렬.cpp">
+    <ClCompile Include="유한소수 판별하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
