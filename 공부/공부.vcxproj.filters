@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="저주의 숫자3.cpp">
+    <ClCompile Include="외계어 사전.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
