@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="안전지대.cpp">
+    <ClCompile Include="숨어있는 숫자의 덧셈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
