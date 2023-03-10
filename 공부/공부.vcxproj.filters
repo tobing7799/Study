@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="최댓값 만들기.cpp">
+    <ClCompile Include="캐릭터의 좌표.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
