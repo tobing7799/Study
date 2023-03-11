@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="직사각형 넓이 구하기.cpp">
+    <ClCompile Include="배열 원소의 길이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
