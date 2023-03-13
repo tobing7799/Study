@@ -143,7 +143,7 @@
     <ClInclude Include="Graph.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="문자열 정렬하기(1).cpp" />
+    <ClCompile Include="모음 제거.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
