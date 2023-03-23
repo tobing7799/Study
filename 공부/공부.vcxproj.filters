@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="각도기.cpp">
+    <ClCompile Include="특정 문자 제거하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
