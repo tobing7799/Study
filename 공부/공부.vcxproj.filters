@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="나이 출력.cpp">
+    <ClCompile Include="아이스 아메리카노.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
