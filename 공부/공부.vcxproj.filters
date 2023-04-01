@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="배열 두배 만들기.cpp">
+    <ClCompile Include="분수의 덧셈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
