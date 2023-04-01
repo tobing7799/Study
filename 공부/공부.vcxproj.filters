@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="분수의 덧셈.cpp">
+    <ClCompile Include="숫자 비교하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
