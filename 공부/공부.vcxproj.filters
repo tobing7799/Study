@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="두 수의 합.cpp">
+    <ClCompile Include="머쓱이보다 키 큰 사람.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
