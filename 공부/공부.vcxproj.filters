@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="중복된 숫자 개수.cpp">
+    <ClCompile Include="공원 산책.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
