@@ -2,24 +2,32 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#include <map>
 
 using namespace std;
 
 vector<string> solution(vector<string> players, vector<string> callings) {
     vector<string> answer;
-    sort(callings.begin(), callings.end());
-    for (auto i = callings.begin(); i != callings.end(); ++i) {
-        auto it = find(players.begin(), players.end(), *i);
-        int cnt = count(callings.begin(), callings.end(), *i);
-        for(int j=0; j<cnt; j++)
-        {
-            swap(*it, *(it - 1));
-            --it;
-            ++i;
-        }
-        --i;
+    map<int, string> ranks;
+    map<string, int> names;
+    for (int i = 0; i < players.size(); i++) {
+        ranks[i] = players[i]; // 등수와 이름을 map에 저장
+        names[players[i]] = i;
     }
-    return answer = players;
+
+    for (string call : callings) {
+        int num = names[call];
+        string str_p = ranks[num];
+        string str_prev = ranks[num-1];
+        names[str_p] = num - 1;
+        names[str_prev] = num;
+        ranks[num] = str_prev;
+        ranks[num - 1] = str_p;
+    }
+    for (auto [num,s] : ranks) {
+        answer.emplace_back(s);
+    }
+    return answer;
 }
 
 int main()
