@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="개인정보 수집 유효기간.cpp">
+    <ClCompile Include="문자열 나누기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
