@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="두 수의 연산값 비교하기.cpp">
+    <ClCompile Include="n의 배수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
