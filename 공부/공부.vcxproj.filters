@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="콜라츠 수열 만들기.cpp">
+    <ClCompile Include="배열 만들기 4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
