@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="부분 문자열 이어 붙여 문자열 만들기.cpp">
+    <ClCompile Include="문자열의 뒤의 n글자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
