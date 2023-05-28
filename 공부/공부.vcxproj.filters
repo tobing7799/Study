@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="접미사 배열.cpp">
+    <ClCompile Include="접미사인지 확인하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
