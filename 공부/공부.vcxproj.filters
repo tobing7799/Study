@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="왼쪽 오른쪽.cpp">
+    <ClCompile Include="n번째 원소까지.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
