@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5명씩.cpp">
+    <ClCompile Include="할 일 목록.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
