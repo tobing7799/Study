@@ -18,6 +18,7 @@ vector<string> solution(vector<string> todo_list, vector<bool> finished) {
 int main()
 {
     for (string s : solution({ "problemsolving", "practiceguitar", "swim", "studygraph" }, { true, false, true, false }))
+    {
         cout << s << " ";
     }
 }

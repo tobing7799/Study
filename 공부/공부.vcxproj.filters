@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="할 일 목록.cpp">
+    <ClCompile Include="n보다 커질 때까지 더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
