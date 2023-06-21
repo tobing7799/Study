@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="수열과 구간 쿼리 1.cpp">
+    <ClCompile Include="조건에 맞게 수열 변환하기 1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
