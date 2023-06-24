@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1로 만들기.cpp">
+    <ClCompile Include="길이에 따른 연산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
