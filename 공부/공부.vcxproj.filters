@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="특정한 문자를 대문자로 바꾸기.cpp">
+    <ClCompile Include="특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
