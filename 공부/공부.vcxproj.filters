@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="문자열이 몇 번 등장하는지 세기.cpp">
+    <ClCompile Include="ad 제거하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
