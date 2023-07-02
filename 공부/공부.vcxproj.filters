@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="공백으로 구분하기 2.cpp">
+    <ClCompile Include="x 사이의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
