@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="배열 만들기 6.cpp">
+    <ClCompile Include="무작위로 K개의 수 뽑기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
