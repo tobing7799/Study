@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="무작위로 K개의 수 뽑기.cpp">
+    <ClCompile Include="배열의 길이를 2의 거듭제곱으로 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
