@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="날짜 비교하기.cpp">
+    <ClCompile Include="커피 심부름.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
