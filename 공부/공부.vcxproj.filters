@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="커피 심부름.cpp">
+    <ClCompile Include="그림 확대.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
