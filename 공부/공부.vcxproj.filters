@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="특별한 이차원 배열 1.cpp">
+    <ClCompile Include="특별한 이차원 배열 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
