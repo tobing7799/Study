@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp">
+    <ClCompile Include="콜라츠 추측.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
