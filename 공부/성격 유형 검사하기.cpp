@@ -8,14 +8,6 @@ using namespace std;
 string solution(vector<string> survey, vector<int> choices) {
     string answer = "";
     map<char, int> type;
-    type['R'] = 0;
-    type['T'] = 0;
-    type['C'] = 0;
-    type['F'] = 0;
-    type['J'] = 0;
-    type['M'] = 0;
-    type['A'] = 0;
-    type['N'] = 0;
     for (int i = 0; i < survey.size(); ++i) {
         if (choices[i] != 4) choices[i] > 4 ? type[survey[i][1]] += (choices[i] - 4) : type[survey[i][0]] += (4 - choices[i]);
     }
