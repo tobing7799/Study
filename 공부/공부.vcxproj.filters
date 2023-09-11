@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="이진 변환 반복하기.cpp">
+    <ClCompile Include="성격 유형 검사하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
