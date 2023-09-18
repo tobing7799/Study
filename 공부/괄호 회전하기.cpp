@@ -26,11 +26,8 @@ int solution(string s) {
 
     for (int i = 0; i < len; ++i) {
         string rotated = s.substr(i) + s.substr(0, i);
-        if (isBalanced(rotated)) {
-            answer++;
-        }
+        if (isBalanced(rotated)) answer++;
     }
-
     return answer;
 }
 
