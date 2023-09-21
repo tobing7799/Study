@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="할인 행사.cpp">
+    <ClCompile Include="피로도.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
