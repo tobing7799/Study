@@ -30,19 +30,14 @@ vector<int> solution(vector<int> fees, vector<string> records) {
             table.insert(make_pair(number, timetominute));
         }
         else {//있는 경우 출차
-            int totalminute = timetominute - (*p).second; //출차-입차 시간을 구함 fees는 기본시간, 기본요금, 단위시간, 단위요금 으로 이루어져있음
-            //int basictime = totalminute - fees[0];
-            //int fee = 0;
-            //if (basictime<0) fee = fees[1];
-            //else fee = (totalminute - fees[0]) % fees[2] > 0 ? fees[1] + ((totalminute - fees[0]) / fees[2] + 1) * fees[3] : fees[1] + ((totalminute - fees[0]) / fees[2]) * fees[3];
+            int totalminute = timetominute - (*p).second;
             result[number] += totalminute;
             table.erase(p);
         }
     }
 
     for (auto remain : table) {
-        int totalminute = (23 * 60 + 59) - remain.second; //출차-입차 시간을 구함 fees는 기본시간, 기본요금, 단위시간, 단위요금 으로 이루어져있음
-        //int fee = fees[1] + (totalminute - fees[0]) % fees[2] ? ((totalminute - fees[0]) / fees[2] + 1) * fees[3] : ((totalminute - fees[0]) / fees[2]) * fees[3];
+        int totalminute = (23 * 60 + 59) - remain.second;
         result[remain.first] += totalminute;
     }
 
@@ -53,7 +48,6 @@ vector<int> solution(vector<int> fees, vector<string> records) {
         else fee = (m.second - fees[0]) % fees[2] > 0 ? fees[1] + ((m.second - fees[0]) / fees[2] + 1) * fees[3] : fees[1] + ((m.second - fees[0]) / fees[2]) * fees[3];
         answer.push_back(fee);
     }
-
     return answer;
 }
 
