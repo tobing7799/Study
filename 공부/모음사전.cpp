@@ -32,3 +32,17 @@ int main()
 {
     cout << solution("I");
 }
+
+/*
+int solution(string word) {
+    string v = string("AEIOU");
+    int a = word.size();
+
+    for(int i = 0, b = 1; i < word.size(); i++, b *= 5)
+        a += v.rfind(word[i]) * 781 / b;
+
+    return a;
+}
+숫자를 이용해서 푸는 방법
+이건 숫자의 규칙성을 알아야한다.
+*/
