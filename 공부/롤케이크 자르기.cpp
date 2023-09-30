@@ -20,7 +20,6 @@ int solution(vector<int> topping) {
         if (!count[n])count.erase(n);
         if (count.size() == deleted.size()) answer++;
     }
-
     return answer;
 }
 
@@ -28,7 +27,3 @@ int main()
 {
     cout << solution({ 1, 2, 1, 3, 1, 4, 1, 2 });
 }
-// 1 2 1 3 1 4 1 2
-
-// 1 2 2 3 3 4 4 4
-// 
