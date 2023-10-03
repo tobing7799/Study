@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="방문 길이.cpp">
+    <ClCompile Include="쿼드압축 후 개수 세기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
