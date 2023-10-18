@@ -26,9 +26,9 @@ bool Dfs(vector<vector<string>>& tickets, vector<string>&answer, vector<bool>&vi
 vector<string> solution(vector<vector<string>> tickets) {
     vector<string> answer;
     vector<bool> visited(tickets.size(),false);
-   // sort(tickets.begin(), tickets.end(), [](vector<string>& a, vector<string>& b) {
-   //     if (a[0] == b[0]) return a[1] < b[1];
-   //     else return a[0] < b[0]; });
+    sort(tickets.begin(), tickets.end(), [](vector<string>& a, vector<string>& b) {
+        if (a[0] == b[0]) return a[1] < b[1];
+        else return a[0] < b[0]; });
 
     Dfs(tickets, answer, visited, "ICN", 0);
 
