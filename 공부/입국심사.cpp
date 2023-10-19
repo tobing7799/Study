@@ -9,20 +9,19 @@ long long solution(int n, vector<int> times) {
     long long answer = 0;
 
     sort(times.begin(), times.end());
-    int max = times[times.size() - 1] * n;
-    int min = 1;
+    long long  max = (long long)times[times.size() - 1] * n;
+    long long  min = 1;
 
-    int p = 0;
+    long long p = 0;
 
     while (min <= max) {
-        int mid = (max + min) / 2;
+        long long mid = (max + min) / 2;
         p = 0;
-        for (int time : times) {
-            p += mid / time;
+        for (long long time : times) {
+            p += ((long long)mid / (long long)time);
         }
-        if (p >= n) { //정답을 찾을 코드로
+        if (p >= n) {
             answer = mid;
-
             max = mid - 1;
         }
         else {
