@@ -22,13 +22,13 @@ int solution(int N, vector<vector<int> > road, int K) {
     PQ.push(make_pair(0, 1));
     dist.assign(N+1, numeric_limits<int>::max());
     dist[1] = 0;
-
+    
     while (!PQ.empty())
     {
         int Cost = -PQ.top().first;
         int Cur = PQ.top().second;
         PQ.pop();
-
+        if (Cost >= K) continue;
         for (int i = 0; i < vertex[Cur].size(); i++)
         {
             int Next = vertex[Cur][i].first;
