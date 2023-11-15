@@ -21,7 +21,7 @@
     <ClCompile Include="미로 탈출.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp">
+    <ClCompile Include="문자열 내 p와 y의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
