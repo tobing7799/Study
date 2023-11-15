@@ -21,7 +21,7 @@
     <ClCompile Include="미로 탈출.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내 p와 y의 개수.cpp">
+    <ClCompile Include="정수 내림차순으로 배치하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
