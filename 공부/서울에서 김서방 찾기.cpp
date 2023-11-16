@@ -9,14 +9,13 @@ string solution(vector<string> seoul) {
     int count = 0;
     for (string s : seoul) {
         if (s == "Kim") {
-            answer = "김서방은";
+            answer = "김서방은 ";
             answer += to_string(count);
             answer += "에 있다";
             break;
         }
         ++count;
     }
-
     return answer;
 }
 
