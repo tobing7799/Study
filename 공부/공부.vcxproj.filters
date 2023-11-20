@@ -21,7 +21,7 @@
     <ClCompile Include="미로 탈출.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="행렬의 덧셈.cpp">
+    <ClCompile Include="같은 숫자는 싫어.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
