@@ -22,7 +22,7 @@
     <ClCompile Include="미로 탈출.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="시저 암호.cpp" />
+    <ClCompile Include="짝지어 제거하기.cpp" />
     <ClCompile Include="퍼즐 조각 채우기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
