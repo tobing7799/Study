@@ -21,7 +21,7 @@
     <ClCompile Include="미로 탈출.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="예산.cpp">
+    <ClCompile Include="영어 끝말잇기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
