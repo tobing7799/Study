@@ -19,3 +19,18 @@ int main()
 {
     cout << solution({3,1,2,3});
 }
+
+/*
+#include <vector>
+#include <iostream>
+#include <set>
+using namespace std;
+
+int solution(vector<int> nums)
+{
+    int answer = 0;
+    set<int> number (nums.begin(), nums.end());
+
+    return answer = number.size() < (nums.size()/2) ? number.size() : (nums.size()/2);
+}
+*/
