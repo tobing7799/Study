@@ -15,7 +15,7 @@ int solution(vector<vector<string>> clothes) {
     for (pair<string, int> p : map) {
         answer = answer * (p.second + 1);
     }
-    return answer-1;
+    return answer - 1;
 }
 
 int main()
