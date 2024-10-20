@@ -13,6 +13,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="공부">
+      <UniqueIdentifier>{c6ba1250-cdb3-47f8-a942-1beb8f53b3da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="퍼즐 조각 채우기.cpp">
@@ -23,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="프로세스.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟 넘버.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="순위 검색.cpp">
+      <Filter>공부</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
