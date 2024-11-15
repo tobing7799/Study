@@ -30,7 +30,10 @@
     <ClCompile Include="타겟 넘버.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="순위 검색.cpp">
+    <ClCompile Include="소스.cpp">
+      <Filter>공부</Filter>
+    </ClCompile>
+    <ClCompile Include="H-Index.cpp">
       <Filter>공부</Filter>
     </ClCompile>
   </ItemGroup>
